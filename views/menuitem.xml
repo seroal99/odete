@@ -1,0 +1,15 @@
+<odoo>
+<menuitem id="main_simuexamen_menu" name="SimuExamen1"/>
+
+        <menuitem id="simuexamen_menu" name="SimuExamen2"
+                  parent="main_simuexamen_menu"/>
+
+        <menuitem id="pinguino_menu" name="Pinguino"
+            parent="simuexamen_menu"
+            action="pinguino_list_action"/>
+
+        <menuitem id="asociacion_menu" name="Asociacion"
+            parent="simuexamen_menu"
+            action="asociacion_list_action"/>
+
+</odoo>
